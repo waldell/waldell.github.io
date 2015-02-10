@@ -1,0 +1,47 @@
+html, body {
+    height:100%;
+    width:100%;
+}
+body {
+    background-image:url(img/rooftops.png);
+    background-attachment: fixed;
+    background-size: cover;
+
+    & > main {
+        position:absolute;
+        top:50%;
+        left:0;
+        right:0;
+        padding:50px;
+        margin-top:-50px;
+        background-color: rgba(255,255,255,0.8);
+        #gradient.horizontal(rgba(255,255,255,1),rgba(255,255,255,0.1),200px,50%);
+        & > p {
+            margin-top: 22px;
+            float:left;
+            font-family: Georgia;
+            font-style: italic;
+        }
+
+        & > img {
+            float:right;
+        }
+    }
+}
+
+#gradient {
+    .vertical(@start-color: #fff; @end-color: #fff; @start-percent: 0%; @end-percent: 100%) {
+        background-image: -webkit-linear-gradient(top, @start-color @start-percent, @end-color @end-percent); // Safari 5.1+, Chrome 10+
+        background-image: -moz-linear-gradient(top, @start-color @start-percent, @end-color @end-percent); // FF 3.6+
+        background-image: linear-gradient(to bottom, @start-color @start-percent, @end-color @end-percent); // Standard, IE10
+        background-repeat: repeat-x;
+        filter: e(%("progid:DXImageTransform.Microsoft.gradient(startColorstr='%d', endColorstr='%d', GradientType=0)",argb(@start-color),argb(@end-color))); // IE9 and down
+    }
+    .horizontal(@start-color: #fff; @end-color: #fff; @start-percent: 0%; @end-percent: 100%) {
+        background-image: -webkit-linear-gradient(left, @start-color @start-percent, @end-color @end-percent); // Safari 5.1+, Chrome 10+
+        background-image: -moz-linear-gradient(left, @start-color @start-percent, @end-color @end-percent); // FF 3.6+
+        background-image: linear-gradient(to right, @start-color @start-percent, @end-color @end-percent); // Standard, IE10
+        background-repeat: repeat-x;
+        filter: e(%("progid:DXImageTransform.Microsoft.gradient(startColorstr='%d', endColorstr='%d', GradientType=0)",argb(@start-color),argb(@end-color))); // IE9 and down
+    }
+}
