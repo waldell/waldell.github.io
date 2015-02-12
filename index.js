@@ -13,5 +13,4 @@ document.addEventListener("DOMContentLoaded", function (e) {
         pagerItem.href = '#' + sections[i].id;
         pager.appendChild(pagerItem);
     }
-
 });
