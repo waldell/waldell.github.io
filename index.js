@@ -16,18 +16,7 @@
         }
     }
 
-    function onScroll(e) {
-        //window.scrollTo(0, 0);
-    }
-
-    function initEvents() {
-        document.addEventListener("scroll", function (e) {
-            onScroll(e);
-        });
-    }
-
     function init() {
-        initEvents();
         createPager();
     }
 
