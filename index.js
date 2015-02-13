@@ -1,7 +1,9 @@
 /*jslint plusplus: true */
 (function () {
     'use strict';
-    var ga;
+
+    function ga(a) { }
+
     function createPager() {
         var sections, pager, pagerItems, pagerItem, i, j;
 
