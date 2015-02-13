@@ -53,8 +53,8 @@
     }
 
     function init() {
-        createPager();
         createGa();
+        createPager();
     }
 
     document.addEventListener('DOMContentLoaded', function (e) {
