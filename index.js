@@ -16,9 +16,7 @@
             }
             self.classList.add('active');
 
-            ga('send', 'pageview', {
-                'page': self.href
-            });
+            ga('send', 'event', 'index', self.href);
         }
 
         for (i = 0; i < sections.length; i++) {
