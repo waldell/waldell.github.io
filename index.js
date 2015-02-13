@@ -2,8 +2,6 @@
 (function () {
     'use strict';
 
-    function ga(a) { }
-
     function createPager() {
         var sections, pager, pagerItems, pagerItem, i, j;
 
