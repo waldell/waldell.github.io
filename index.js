@@ -15,6 +15,7 @@
                 pagerItems[j].classList.remove('active');
             }
             self.classList.add('active');
+            _gaq.push(['_trackEvent', 'Section', self.href]);
         }
 
         for (i = 0; i < sections.length; i++) {
