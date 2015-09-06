@@ -41,11 +41,14 @@
                 font-size: 24pt;
                 font-weight: 100;
             }
-
             a {
-                display:block;
                 text-decoration: none;
                 color:#000;
+                transition: color .7s ease-in;
+            }
+            a:hover {
+                color:#ff00c4;
+                transition: color .1s ease-in;
             }
 
             #contact {
@@ -57,18 +60,29 @@
                 margin-top:-50px;
                 height:100px;
             }
-
         </style>
     </head>
-
     <body>
-
         <div id="contact">
-            <a href="#">Oscar Johansson</a>
-            <a href="mailto:oscar@waldell.se">oscar@waldell.se</a>
-            <a href="tel:+46739334453">+46 739 33 44 53</a>
+            <a id="name" href="#">Oscar Johansson</a>
+            <br />
+            <a id="mail"></a>
+            <br />
+            <a id="phone"></a>
         </div>
 
+        <script type="text/javascript">
+            // this will hopefully prevent some bots from getting my mail and phone :)
+            var mailElm = document.querySelector('#mail'),
+                phoneElm = document.querySelector('#phone'),
+                mail = 'oscar' + '@' + 'waldell.se',
+                phone = '+46 739 33 44 53';
+
+            mailElm.text = mail;
+            mailElm.href = 'mailto:' + mail;
+            phoneElm.text = phone;
+            phoneElm.href = 'tel:' + phone.replace(/\s/g,'');
+        </script>
     </body>
 
 </html>
