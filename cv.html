@@ -4,7 +4,6 @@
         <meta charset="UTF-8">
         <title>Oscar Johansson CV</title>
 
-<!--        <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />-->
         <style type="text/css">
             @font-face {
                 font-family: "San Francisco";
@@ -35,45 +34,59 @@
             }
             body {
                 font-family:"San Francisco", "Helvetica Neue", arial;
-                font-weight: 100;
+                font-weight: 200;
+                font-size: 16pt;
                 background: #eee;
             }
             h1,h2,h3,h4,h5 {
-                font-weight: 200;
+                font-weight: 700;
                 margin: 0;
+                text-align: center;
+            }
+            h1 {
+                margin-bottom: 0px;
+                margin-top:100px;
             }
             p {
                 margin-top: 0;
                 margin-bottom: 10px;
             }
             strong {
-                font-weight: 400;
+                font-weight: 700;
             }
             div.spacer {
-                height:20px;
+                height:1px;
+                background: #ddd;
+                margin:50px;
             }
             #container {
                 background:#fff;
-                margin:20px;
-                padding:20px;
+                margin:50px;
+                margin-top: 10px;
+                padding:50px;
             }
             #profileImage {
                 width:150px;
                 float:right;
+                margin-left: 20px;
             }
             ul.pills {
                 display: inline-block;
                 list-style-type: none;
+                font-size: 0;
                 padding: 0;
                 margin: 0;
             }
 
             ul.pills > li {
                 line-height: 34px;
+                font-size: 14pt;
+                font-weight: 700;
                 background: #eee;
-                display: inline;
+                display: inline-block;
                 padding:5px 10px;
                 border-radius: 10px;
+                margin: 10px;
             }
             .clearfix:before,
             .clearfix:after {
@@ -87,20 +100,51 @@
         </style>
     </head>
     <body>
+
+        <h1>Oscar Johansson</h1>
         <div id="container">
-
-
-            <h1>Oscar Johansson</h1>
-            <img id="profileImage" src="profile.jpg" />
+            <img id="profileImage" src="me.jpg" />
             <p>
                 För mig handlar utveckling om att skapa en enkel och intutiv lösning för användaren. Nyckeln till det tror jag ligger i att bygga system som drivs utifrån ett användarperspektiv. Min främsta styrka som utvecklare är just detta. Allt från en snygg arkitektur i botten till ett enkelt och intuitivt gränssnitt för slutanvändaren. För mig  är alla delar lika viktiga.
             </p>
 
             <div class="clearfix"></div>
+        </div>
+        <h1>Arbete</h1>
+        <div id="container">
+            <h3>Konsult - Skandia Norden (2016-06 till nuvarande)</h3>
+            <p>
+                Har arbetat med Skandias front-end ramverk som används av alla interna och externa sajter inom koncernen. 
+                Arbetet innebar att sitta nära Skandias UX-team där vi tillsammans tar fram krav och sedan utvecklar komponenter som sedan implementeras och nyttjas av andra team internt.
+                Eftersom ramverket måste vara generellt gällde det att bygga enligt vissa principer och design-mönster. Komponenterna måste kunna användas i allt från mer traditionella applikationer till modernare SPA som drivs av t.ex. React eler Angular.
+                All komponentkod skrevs så ren som möjligt med HTML5, CSS3 och ES6.
+            </p>
+            <p>
+                En stor del av arbetet har inneburit att lyfta ramverket från att vara en enklare jQuery-implementation till att separera komponenterna från varandra samt att hårt separera styling från javascript.
+                Komponenterna byggdes baserat på samma principer som används i Bootstrap men vidareutvecklat och generaliserat till en nivå som möjliggör att man enkelt kan bygga komponenter i ES6 som sedan transpileras till externa komponenter.
+            </p>
+            <p>
+                Ett annat projekt har varit att stötta utvecklare samt vara med och utveckla i ett projekt där man skulle designa om hela internetbanken till att följa samma grafiska profil som skandia.se.
+            </p>
 
-            <h1>Arbete</h1>
+            <strong>Tekniker:</strong>
+            <ul class="pills">
+                <li>ASP.NET Core 1 &amp; 2</li>
+                <li>HTML5</li>
+                <li>Javascript (ES6)</li>
+                <li>jQuery</li>
+                <li>Angular</li>
+                <li>CSS3/Less</li>
+                <li>TFS/Git</li>
+            </ul>
 
-            <h3><u>Konsult - AFA Försäkring (2011-08 till nuvarande)</u></h3>
+
+
+            <div class="spacer"></div>
+
+
+
+            <h3>Konsult - AFA Försäkring (2011-08 till 2016-06)</h3>
             <p>
                 Har arbetat med ASP.NET i C# och VB.NET från version 2.0 upp till 4.5. I rollen på AFA har jag agerat mentor och stöd åt många utvecklare på avdelningen samt hållt demos/föreläsningar inom en mängd tekniker t.ex. responsiv webbutveckling. Har på uppdraget varit inblandad i ett tiotal olika projekt/förvaltningar.
             </p>
@@ -127,30 +171,30 @@
             </ul>
 
 
-            <div class="spacer"></div><div class="spacer"></div>
+            <div class="spacer"></div>
 
 
 
-            <h3><u>Gruppchef ‐ H&M IT (2010‐08 ‐ 2011-06)</u></h3>
+            <h3>Gruppchef ‐ H&amp;M IT (2010‐08 ‐ 2011-06)</h3>
             <p>
                 Personal‐/resursansvar för  integrationsteamet som består av 13 utvecklare och arkitekter samt 15 konsulter. I rollen arbetade jag med allt från rekrytering till att ha gruppmöten och workshops samt utvecklingssamtal med personalen.
             </p>
 
 
-            <div class="spacer"></div><div class="spacer"></div>
+            <div class="spacer"></div>
 
 
-            <h3><u>Utvecklare/Arkitekt – H&M IT (2008‐06 ‐ 2010‐08)</u></h3>
+            <h3>Utvecklare/Arkitekt – H&amp;M IT (2008‐06 ‐ 2010‐08)</h3>
             <p>
-                Arbetade med C# utveckling i både .NET 2.0 och 3.5. I min roll låg allt från utvecking och arkitektur till kravanalys och design. Bl.a. byggde jag upp ett helt nytt ramverk samt databasstruktur  för att hantera och filtrera stora transaktionsintensiva mängder orderdata. Även detaljerad information kring alla H&Ms plagg importerades. Importerna gjordes via MSMQ med XML som bärare.
+                Arbetade med C# utveckling i både .NET 2.0 och 3.5. I min roll låg allt från utvecking och arkitektur till kravanalys och design. Bl.a. byggde jag upp ett helt nytt ramverk samt databasstruktur  för att hantera och filtrera stora transaktionsintensiva mängder orderdata. Även detaljerad information kring alla H&amp;Ms plagg importerades. Importerna gjordes via MSMQ med XML som bärare.
             </p>
             <p>
-                Systemets syfte var bl.a. att kunna få ut statistik på specifika plagg/varugruppers mediaexponering samt att hålla uppgifter kring H&M’s samtliga presskontakter.
+                Systemets syfte var bl.a. att kunna få ut statistik på specifika plagg/varugruppers mediaexponering samt att hålla uppgifter kring H&amp;M’s samtliga presskontakter.
             </p>
 
             <strong>Tekniker:</strong>
             <ul class="pills">
-                <li>ASP.NET (C#) 2.0 & 3.5</li>
+                <li>ASP.NET (C#) 2.0 &amp; 3.5</li>
                 <li>XHTML</li>
                 <li>Javascript</li>
                 <li>jQuery</li>
