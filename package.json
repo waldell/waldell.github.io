@@ -6,12 +6,10 @@
   "repository": "https://github.com/waldell/waldell.github.io.git",
   "author": "Oscar Johansson <oscar@waldell.se>",
   "license": "MIT",
-
-  "scripts": { 
+  "scripts": {
     "lite": "lite-server --port 10001",
-    "start": "npm run lite" 
+    "start": "npm run lite"
   },
-
   "devDependencies": {
     "lite-server": "^2.3.0"
   }
