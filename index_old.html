@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59751543-1"></script> -->
-        <!-- <script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59751543-1"></script>
+        <script>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
+
             gtag('config', 'UA-59751543-1');
-        </script> -->
+        </script>
 
         <meta charset="UTF-8">
         <title>Waldell</title>
@@ -35,7 +36,6 @@
             }
             #logo {
                 position: absolute;
-                z-index: 1;
                 top:20px;
                 left: 20px;
                 height:48px;
@@ -51,26 +51,6 @@
                 position: absolute;
                 top:20px;
                 right: 20px;
-            }
-            #photo {
-              position: absolute;              
-              top:0;
-              bottom:0;
-              left: 0;
-              right:0;
-              background-size: cover;
-              background-position: center;
-              background-image:url('./IMG_0576.jpeg');
-              filter: grayscale(100%);
-            }
-            #photo::before {
-              content: '';
-              position: absolute;              
-              top:0;
-              bottom:0;
-              left: 0;
-              right:0;
-              background: linear-gradient(90deg, rgba(255,255,255,1) 45%, rgba(255,255,255,0) 100%);
             }
             a {
                 color:#000;
@@ -95,7 +75,6 @@
     </head>
     <body>
         <img id="logo" src="waldell-logo.svg" />
-        <div id="photo"></div>
         <div id="contact">
             <span id="name"></span>
             <span id="mail"></span>
