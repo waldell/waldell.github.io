@@ -1,16 +1,13 @@
 {
   "name": "waldell",
   "version": "1.0.0",
-  "description": "waldell.se website",
-  "main": "app.js",
   "repository": "https://github.com/waldell/waldell.github.io.git",
-  "author": "Oscar Johansson <oscar@waldell.se>",
-  "license": "MIT",
+  "author": "Oscar Waldell <oscar@waldell.se>",
   "scripts": {
     "lite": "lite-server --port 10001",
     "start": "npm run lite"
   },
   "devDependencies": {
-    "lite-server": "^2.3.0"
+    "lite-server": "^2.6.1"
   }
 }
