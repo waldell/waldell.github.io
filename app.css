@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans:wght@800&family=Ubuntu+Mono&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  overflow: hidden;
+}
+.heading {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  margin: 0;
+}
+.paragraph {
+  font-size: 18pt;
+  font-family: 'Lora', serif;
+}
+
+.section.section_zero {
+  background: #111;
+}
+.section.section_zero > .heading {
+  font-size: 16vw;
+  text-transform: uppercase;
+  color: #fff;
+}
+.section.section_one {
+  background: #eee;
+  
+}
+.section.section_one > .paragraph {
+  color: #222;
+  margin-bottom: 30pt;
+}
+.section.section_two {
+  background: #4d2f7b;
+  background: linear-gradient(180deg, #4d2f7b 0%, #200d40 50%);
+  gap: 100px;
+}
+.section.section_two > .heading {
+  /* font-size: 64pt; */
+  font-size: 32pt;
+  text-align: center;
+  color: #fff;
+  display: block;
+}
+.section.section_three {
+  background: #eee;
+  padding:0;
+}
+.section.section_three > .heading {
+  font-size: 36pt;
+  padding:20px;
+  color: #222;
+  margin-bottom: 40px;
+}
+
+.skills {
+  /* width: 60vw; */
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  width: 80vw;
+}
+.skills > li {
+  margin-bottom: 30pt;
+}
+.skills > li > .heading {
+  font-family: "Ubuntu Mono", monospace;
+  font-family: "Open Sans", sans-serif;
+  font-size: 32pt;
+  color: #eee;
+}
+.skills > li > .paragraph {
+  font-family: "Ubuntu Mono", monospace;
+  color: #ccc;
+}
+
+.resume {
+  /* width:60vw; */
+  list-style: none;
+}
+.resume > li {
+  position: relative;
+  padding: 50px 20px;
+
+}
+.resume > li:nth-child(even) {
+  background:#fff;
+}
+.resume > li > .dates {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14pt;
+  padding-bottom: 20pt;
+  color: #000;
+  text-align: center;
+}
+/* .resume > li > .dates > time {
+  margin:0 20pt;
+} */
+.resume > li > .dates > time:first-child {
+  margin-right: 10pt;
+}
+.resume > li > .dates > time:last-child {
+  margin-left: 10pt;
+}
+.resume > li > .paragraph {
+  margin-bottom: 10pt;
+  font-size: 16pt;
+}
+.resume > li > .paragraph:last-of-type {
+  margin-bottom: 20pt;
+}
+.resume > li > h3.heading {
+  font-size: 18pt;
+  margin-bottom: 20pt;
+}
+.resume > li > h4.heading {
+  font-size: 16pt;
+  margin-bottom: 20pt;
+}
+.resume > li > ul.technologies {
+    list-style: none;
+    font-size: 0;
+    text-align: center;
+}
+.resume > li > ul.technologies > li {
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 14pt;
+  display: inline-block;
+  padding: 8pt 16pt;
+  background: #ddd;
+  color: #222;
+  border-radius: 30px;
+  margin:0 10pt 10pt 0;
+}
+
+/* @media (min-width: 0px) and (max-width: 768px) {  */
+@media (max-width: 768px) { 
+  /* .section.section_two > .heading {
+    font-size: 32pt;
+    text-align: center;
+  } */
+  /* .skills {
+    flex-direction: column;
+    width: 80vw;
+  } */
+  .skills > li {
+    min-width: unset;
+  }
+  /* .resume {
+    width:80vw;
+  } */
+}

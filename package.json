@@ -4,10 +4,8 @@
   "repository": "https://github.com/waldell/waldell.github.io.git",
   "author": "Oscar Waldell <oscar@waldell.se>",
   "scripts": {
-    "lite": "lite-server --port 10001",
-    "start": "npm run lite"
+    "start": "npx lite-server"
   },
-  "devDependencies": {
-    "lite-server": "^2.6.1"
-  }
+  "devDependencies": {},
+  "dependencies": {}
 }

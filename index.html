@@ -1,43 +1,350 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59751543-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date())
-            gtag('config', 'UA-59751543-1');
-        </script>
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Waldell</title>
 
-        <meta charset="UTF-8">
-        <title>Waldell</title>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59751543-1"></script>
+  <script async src="app.js"></script>
+  <link href="app.css" rel="stylesheet">
+</head>
 
-        <style type="text/css">   
+<body>
+  <main>
+    <section class="section section_zero">
+      <h1 class="heading">Waldell</h1>
+    </section>
 
-            html,body {
-                width: 100vw;
-                height: 100vh;
-                margin: 0;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                background: #111;
-            }
-            #text {
-                font-family: 'Open Sans', sans-serif;
-                font-size: 10vw;
-                text-transform: uppercase;
-                color: #eee;
-                margin: 0;
-            }
-        </style>
-    </head>
-    <body>
-        <h1 id="text">Waldell</h1>
-    </body>
+    <section class="section section_one">
+      <p class="paragraph">
+        I thrive when I get to build things that improves the user journey.
+      </p>
+      <p class="paragraph">
+        From previously working with complex products in many different sectors I have gathered a lot of knowledge of
+        what works well and what could be improved.
+      </p>
+      <p class="paragraph">
+        My former clients really appreciate me for being a visionary with a focus on identifying simple and effective
+        solutions.
+      </p>
+      <p class="paragraph">
+        Simplicity and maintanability is the key signatures in everything I develop. This is my key strengths!
+        The effect of this is great stability and quality all levels of my delivery.
+      </p>
+    </section>
+
+    <section class="section section_two">
+      <h1 class="heading">Featured skills</h1>
+      <ul class="skills">
+        <li>
+          <h2 class="heading">{ JS }</h2>
+          <p class="paragraph">
+            With over 20 years of experience in Javascript and 10 years in typescript I have deep
+            knowledge and understanding of all the what and all whatnots. I think I have been down every rabbit-hole
+            there is!
+          </p>
+        </li>
+        <li>
+          <h2 class="heading">&lt;HTML /&gt;</h2>
+          <p class="paragraph">
+            Started my development skills by learning HTML in 1994. My first web page consisted of a
+            brick background a 3d-logo surrounded by two flame torches. Nowadays, I mostly write JSX.
+          </p>
+        </li>
+        <li>
+          <h2 class="heading">.CSS</h2>
+          <p class="paragraph">
+            This is where I thrive. Love being in the world of where design meets code. Here we can
+            do wonders. Here we can simplify complex things. My love for CSS is as pure but my love for SASS is even
+            deeper!
+          </p>
+        </li>
+        </div>
+    </section>
+
+    <section class="section section_three">
+      <h1 class="heading">Resumé s'il vous plaît!</h1>
+      <ol class="resume">
+        <li>
+          <div class="dates">
+            <time>2022-05</time>→<time>2022-11</time>
+          </div>
+          <h3 class="heading">Developer - Volvo Cars</h3>
+          <p class="paragraph">
+            Working as a frontend developer with the Volvo Cars website. My work was mainly focused on developing
+            consumer-end modules, written with react which was then fed content via a headless CMS and using GraphQL for
+            getting the data.
+            Working on such a big site gave me useful insights in large scale architecture, development and devops as
+            well as it taught me how to really scale without losing the core concepts of flexible and maintainable code.
+            The frontend was developed with React on Next.js in a large mono-repo with approximately 50 sites. The core
+            concepts were based on sharing modules across the sites while still doing core implementation of them per
+            site. All modules had to be written in a way they had multi language support and were fed their content from
+            the headless CMS. As for data fetching for the components we used GraphQL to fetch data and then feed that
+            to the components.
+          </p>
+          <p class="paragraph">
+            One module I developed was a component that could calculate the total cost of ownership for different cars
+            based on things like the benefit in kind value, leasing cost, mileage and so on. This really helped increase
+            the conversion rate on our signups.
+          </p>
+          <p class="paragraph">
+            During my time I really focused on getting us as a team to collaborate more, making us much more efficient.
+            Sharing knowledge and experiences really helped us on achieving otherwise tough tasks. It also made us
+            perform faster and with higher quality.
+          </p>
+          <h4 class="heading">Technologies</h4>
+          <ul class="technologies">
+            <li>HTML5/JSX</li>
+            <li>Javascript (ES6)</li>
+            <li>Typescript</li>
+            <li>Node</li>
+            <li>Express</li>
+            <li>React</li>
+            <li>CSS modules</li>
+            <li>GraphQL</li>
+            <li>Git</li>
+            <li>Sitecore</li>
+            <li>Contentful,</li>
+            <li>Azure</li>
+            <li>Azure DevOps</li>
+            <li>GitHub</li>
+            <li>GitHub Actions</li>
+            <li>Docker</li>
+            <li>Enzyme</li>
+            <li>Jest</li>
+            <li>Scrum</li>
+          </ul>
+        </li>
+
+
+        <li>
+          <div class="dates">
+            <time>2020-11</time>→<time>2022-05</time>
+          </div>
+          <h3 class="heading">Developer - Nordic Leisure Travel Group</h3>
+          <p class="paragraph">
+            Development of the APIs used by all apps for the company. We had a total of around 40-50 APIs that were
+            built using Node with express. The APIs had a lot of integrations to both internal and external systems
+            which included content, booking-, hotel- and flight-systems. A lot of the work consisted of mapping a lot of
+            different information based on market and personalization settings.
+          </p>
+          <p class="paragraph">
+            Finishing the development of the project we started at the start of 2020. My role was to lead the
+            architectural work, educate the internal resources and finish development of the system primarily in React
+            and .NET.
+          </p>
+          <h4 class="heading">Technologies</h4>
+          <ul class="technologies">
+            <li>.NET Core</li>
+            <li>HTML5</li>
+            <li>Javascript (ES6)</li>
+            <li>Typescript</li>
+            <li>Node</li>
+            <li>Express</li>
+            <li>React</li>
+            <li>CSS modules</li>
+            <li>GraphQL</li>
+            <li>Git</li>
+            <li>Azure</li>
+            <li>Azure DevOps</li>
+            <li>Docker</li>
+            <li>Enzyme</li>
+            <li>Jest</li>
+            <li>Postman</li>
+            <li>SaFe</li>
+            <li>Scrum</li>
+          </ul>
+        </li>
+
+        <li>
+          <div class="dates">
+            <time>2020-06</time>→<time>Current</time>
+          </div>
+          <h3 class="heading">Product owner - AFA Insurance</h3>
+          <p class="paragraph">
+            Managing multiple projects on systems for GDPR and Risk Management (Solvens 2) for the customer. With new EU
+            regulations there are of most importance that the technical requirements and architecture are up to date.
+          </p>
+        </li>
+
+        <li>
+          <div class="dates">
+            <time>2020-02</time>→<time>2020-05</time>
+          </div>
+          <h3 class="heading">Developer - Nordic Leisure Travel Group</h3>
+          <p class="paragraph">
+            Working with development, prototyping and designs for a new system in React. The system is used to manage
+            contracts
+            and agreements for hotels.
+            The job was to build a new app and build components which later will be consumed by developers of the
+            application.
+            It was of most importance to build a user friendly system so the user could work effectively as they are
+            heavy users
+            with a lot of data to handle.
+            The application was set up with a cloud first strategy in Azure. It was hosted in docker containers and
+            deployed using
+            deployment pipelines.
+          </p>
+          <p class="paragraph">
+            Worked with systems for handling of the flight bookings and administration of the bookings. The systems are
+            very
+            complex with lots of integrations and queues. The APIs were written mainly in Node and some in .NET Core.
+          </p>
+          <h4 class="heading">Technologies</h4>
+          <ul class="technologies">
+            <li>ASP.NET Core</li>
+            <li>HTML5</li>
+            <li>Javascript (ES6)</li>
+            <li>Node</li>
+            <li>React</li>
+            <li>CSS modules</li>
+            <li>GraphQL</li>
+            <li>Git</li>
+            <li>Azure</li>
+            <li>Docker</li>
+            <li>Enzyme</li>
+            <li>Jest</li>
+          </ul>
+        </li>
+        <li>
+          <div class="dates">
+            <time>2019-10</time>→<time>2020-02</time>
+          </div>
+          <h3 class="heading">Parental leave</h3>
+          <p class="paragraph">
+            Enjoying time with my daugther and greatly improving both leadership and multitasking capabilities. Most of the time spent abroad in and around the pool or by the beach.
+          </p>
+        </li>
+
+        <li>
+          <div class="dates">
+            <time>2016-06</time>→<time>2019-10</time>
+          </div>
+          <h3 class="heading">Developer - Skandia</h3>
+          <p class="paragraph">
+            Working with the front end framework at Skandia, used by all internal and external sites within the company.
+            The job consisted of working tightly with the UX team to create and maintain components used by other teams
+            internally. Because the framework needed to be generic it had to be structured according to strict
+            principles and easy to understand design patterns. The components also needed to be consumable in everything
+            from more traditional "static" code to modern frameworks (eg. React). All code was written as clean as
+            possible with HTML5, CSS3 and ES6/Typescript
+          </p>
+          <p class="paragraph">
+            A big part of the job has been porting the old framework to a more modern stack. The old jQuery code was
+            extracted to a version with strict separation of markup, design and logic. The new components were built
+            using a tweak on how bootstrap structured their components and with more generalization to enable extraction
+            to external consumable components.
+          </p>
+          <p class="paragraph">
+            One project has been to support the internal developers at Skandia during the redesign of the internet bank
+            pages. The goal was to make the pages in the internet bank to look, feel and behave just like the pages on
+            skandia.se
+          </p>
+          <p class="paragraph">
+            Another project was building a new version of the front end framework in React. It was very important to
+            build the components so they could be used by several teams and at the same time meet their specific
+            requirements. I also acted as a mentor for other developers within my team and other teams regarding
+            questions on javascript and the React framework.
+          </p>
+          <h4 class="heading">Technologies</h4>
+          <ul class="technologies">
+            <li>ASP.NET Core</li>
+            <li>HTML5</li>
+            <li>Javascript (ES6)</li>
+            <li>Node</li>
+            <li>Typescript</li>
+            <li>jQuery</li>
+            <li>React</li>
+            <li>Webpack/Rollup</li>
+            <li>CSS3/Less/Sass</li>
+            <li>Git
+          </ul>
+        </li>
+
+        <li>
+          <div class="dates">
+            <time>2011-08</time>→<time>2016-06</time>
+          </div>
+          <h3 class="heading">Developer - AFA Insurance</h3>
+          <p class="paragraph">
+            Working with ASP.NET C# and VB.NET from version 2.0 to 4.5. In my role at AFA I acted as a mentor for many
+            of the developers. I have held workshops and lectures on multiple occasions for the developers. I worked on
+            ten different projects.
+          </p>
+          <p class="paragraph">
+            I rebuilt the internal case management and time reporting systems. The goal was to increase performance but
+            also to follow web-standards and remodel and normalize the data.
+          </p>
+          <p class="paragraph">
+            Another system I worked on was the biggest and one of the most important of AFA's systems which handles
+            registration of work related injuries and accidents. One job was to build a solid translation solution for
+            the system.
+          </p>
+          <p class="paragraph">
+            The system had over 200 pages and a lot of internal keys were to be translated. The solution was to build a
+            flexible system where you could translate the system directly in the system itself. Because the code of the
+            system to be translated was very old and unstructured a lot of refactoring had to be made to get the new
+            solution to work. When I quit the system had been translated in 10 languages and the number of visitors was
+            20.000 unique logins per week.
+          </p>
+          <h4 class="heading">Technologies</h4>
+          <ul class="technologies">
+            <li>ASP.NET</li>
+            <li>ASP.NET MVC</li>
+            <li>ASP.NET Web API</li>
+            <li>XHTML</li>
+            <li>HTML5</li>
+            <li>jQuery</li>
+            <li>Knockout</li>
+            <li>Angular</li>
+            <li>CSS</li>
+            <li>CSS3</li>
+            <li>Bootstrap</li>
+            <li>SQL Server</li>
+            <li>TFS</li>
+            <li>IIS 7.5</li>
+          </ul>
+        </li>
+        <li>
+          <div class="dates">
+            <time>2010-08</time>→<time>2011-06</time>
+          </div>
+          <h3 class="heading">Group manager H&M</h3>
+          <p class="paragraph">
+            Manager for the integration team consisting of 13 developers and architects and 15 consultants. In my role
+            as manager I was responsible for everything from staffing, team buildning and recruitment to holding
+            workshops and holding evaluations.
+          </p>
+        </li>
+        <li>
+          <div class="dates">
+            <time>2008-06</time>→<time>2010-08</time>
+          </div>
+          <h3 class="heading">Developer – H&M</h3>
+          <p class="paragraph">
+            Working as a C# developer in .NET 2.0 to 3.5. In my role I was responsible for everything from development
+            and architecture to requirement and design. One system I worked on was to build a new framework to handle
+            huge amounts of data flowing from the order system. Large quantities of detailed garment details were also
+            imported and filtered. This job was done using MSMQ with XML as format. The data then was gathered and
+            quantified to be able to show reports of the media exposure for different garments.
+          </p>
+          <h4 class="heading">Technologies</h4>
+          <ul class="technologies">
+            <li>ASP.NET (C#) 2.0-3.5,</li>
+            <li>XHTML</li>
+            <li>Javascript (incl. JQuery)</li>
+            <li>CSS</li>
+            <li>SQL Server (inkl. Reporting Services) 2005-2008,</li>
+            <li>Subversion</li>
+            <li>IIS 7</li>
+            <li>CSLA 2.0</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+  </main>
+</body>
 
 </html>
