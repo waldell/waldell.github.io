@@ -1,126 +1,115 @@
-## Full Stack Developer - Gina Tricot
-### 2023-08 → 2026-05
+## Profile summary
 
-Worked as a full stack developer on Gina Tricot's e-commerce platform, contributing to major technical initiatives that improved performance, code quality, and long-term maintainability of the site.
+Senior full-stack developer with 15+ years of experience building e-commerce solutions, customer-facing web platforms, APIs and internal business systems. Strong background in React, Next.js, TypeScript, Node.js and .NET, with hands-on experience in platform modernisation, performance work, headless CMS, cloud delivery and component libraries. Comfortable working across development, architecture and cross-functional collaboration, and used to supporting teams through mentoring and knowledge sharing.
 
-**Key Projects & Contributions**
+## Core competencies
 
-- **Platform modernisation:** Led the upgrade of the entire web platform from Next.js 9 to Next.js 13 and React 16 to React 18, including major version upgrades of all core dependencies (MUI, Express, Storybook, Jest, and others). Ensured a stable, fully tested rollout with minimal disruption to production.
+React, Next.js, TypeScript, JavaScript, Node.js, Express, .NET / ASP.NET Core, GraphQL, REST APIs, frontend architecture, design systems / component libraries, headless CMS, performance optimisation, Core Web Vitals, localisation / multilingual solutions, cloud platforms, CI/CD, Docker, Terraform, mentoring, cross-team collaboration.
 
-- **TypeScript migration:** Ported the entire codebase from JavaScript to TypeScript as part of the platform upgrade, improving type safety, reducing runtime errors, and making the codebase significantly more maintainable for the team.
+## Assignments
 
-- **API layer & performance:** Designed and implemented server-side API routes in Next.js to centralise and cache external API calls. This reduced redundant network requests, improved page load times, and resulted in measurably better Core Web Vitals scores - directly benefiting the site's ranking in Google Search.
+### Full Stack Developer – Gina Tricot
+**2023-08 – Present**
 
-**Technologies:** React, Next.js, TypeScript, MUI, Express, Storybook, Jest, Storyblok, Craft CMS, AWS, Terraform
+Worked on Gina Tricot's e-commerce platform with focus on platform modernisation, performance and long-term maintainability.
 
-## Parental Leave
-### 2022-11 → 2023-08
+- Drove the platform upgrade from Next.js 9 to 13 and React 16 to 18, including coordinated upgrades of 12 major dependencies such as MUI, Express, Storybook and Jest.
+- Migrated the entire codebase from JavaScript to TypeScript, improving type safety and making the platform easier to maintain and develop further.
+- Built server-side API routes in Next.js to centralise integrations and optimise caching, reducing underlying API calls by around 80% and cutting response times on some pages by about 70%.
+- Implemented optimised rendering strategies using SSR, SSG and ISR, contributing to significantly faster page loads and markedly better Core Web Vitals, with key page scores moving from roughly 20–30 up to 90–100.
 
-Took time off to be with my son. Greatly improved leadership and multitasking capabilities, with a significant amount of time spent abroad - primarily poolside.
+**Technologies:** React, Next.js, TypeScript, JavaScript, Node.js, Express, MUI, Storybook, Jest, Storyblok, Craft CMS, AWS, Terraform, Git, CI/CD
 
-## Frontend Developer - Volvo Cars
-### 2022-05 → 2022-11
+### Parental Leave
+**2022-11 – 2023-08**
 
-Worked as a frontend developer on the Volvo Cars website, a large-scale platform spanning approximately 50 sites in a shared mono-repo. The core architecture revolved around building reusable modules consumable across all sites, each with full multi-language support and content fed via a headless CMS.
+Full-time parental leave.
 
-**Key Projects & Contributions**
+### Frontend Developer – Volvo Cars
+**2022-05 – 2022-11**
 
-- **Consumer-facing modules:** Developed React components integrated with Sitecore and Contentful via GraphQL, ensuring content flexibility and consistency across markets.
+Worked on the Volvo Cars web platform in a monorepo covering around 50 market sites, with focus on reusable modules, multilingual support and headless CMS integrations.
 
-- **Total Cost of Ownership calculator:** Built a dynamic module that calculated the total cost of car ownership based on variables such as benefit-in-kind value, leasing costs, and mileage. The tool had a direct positive impact on conversion rates for new signups.
+- Built reusable React modules integrated with Sitecore and Contentful via GraphQL.
+- Developed a Total Cost of Ownership calculator used in the lead-generation flow, handling variables such as benefit value, leasing cost and mileage.
+- Contributed to knowledge sharing and cross-team collaboration to improve quality and delivery across teams.
 
-- **Team collaboration & knowledge sharing:** Took initiative to improve team collaboration by establishing knowledge-sharing practices and cross-team communication, which led to higher quality output and faster delivery on complex tasks.
+**Technologies:** React, Next.js, TypeScript, JavaScript, Node.js, GraphQL, CSS Modules, Sitecore, Contentful, Azure, Azure DevOps, GitHub Actions, Docker, Jest, Enzyme, Git
 
-**Technologies:** React, Next.js, TypeScript, Node, Express, GraphQL, CSS Modules, Sitecore, Contentful, Azure, Azure DevOps, GitHub Actions, Docker, Jest, Enzyme
+### Developer – Nordic Leisure Travel Group
+**2020-11 – 2022-05**
 
-## Developer - Nordic Leisure Travel Group
-### 2020-11 → 2022-05
+Worked on the API platform behind the company's digital products, with responsibility for integrations across content, bookings, hotels and flights.
 
-Worked as a developer responsible for the APIs powering all of the company's applications - a suite of around 40–50 APIs built in Node with Express, with deep integrations into internal and external systems covering content, bookings, hotels, and flights.
+- Built and maintained a large set of Node.js and Express APIs used by multiple applications and markets.
+- Worked with complex data mapping, personalisation logic and integrations with internal and external systems.
+- Led architecture work for an internal initiative, supported onboarding and knowledge transfer, and drove delivery together with internal developers.
 
-**Key Projects & Contributions**
+**Technologies:** Node.js, Express, TypeScript, React, .NET Core, GraphQL, Azure, Azure DevOps, Docker, Jest, Postman, Git, Scrum, SAFe
 
-- **API development & integrations:** Built and maintained a large API layer handling complex data mapping across markets and personalisation settings, integrating with booking, hotel, and flight systems as well as internal platforms.
+### Product Owner – AFA Insurance
+**2020-06 – Present (advisory assignment)**
 
-- **System architecture lead:** Led the architectural work for a key internal project, educated internal developers on the system, and drove development to completion - primarily in React and .NET Core.
+Responsible for GDPR and risk management initiatives within insurance systems, with focus on translating regulatory requirements into clear product and technical priorities.
 
-**Technologies:** .NET Core, Node, Express, React, TypeScript, GraphQL, CSS Modules, Azure, Azure DevOps, Docker, Jest, Enzyme, Postman, SAFe, Scrum
+- Coordinated stakeholders across business, compliance and development.
+- Defined requirements, prioritised scope and supported architecture decisions linked to GDPR and Solvency II compliance.
+- Helped ensure that systems remained aligned with current and upcoming EU regulations.
 
-## Product Owner - AFA Insurance
-### 2020-06 → Present
+### Developer – Nordic Leisure Travel Group
+**2020-02 – 2020-05**
 
-Managing multiple projects focused on GDPR compliance and Risk Management (Solvens 2) systems. Responsible for ensuring technical requirements and architecture are aligned with current and upcoming EU regulations, keeping critical insurance systems up to date and compliant.
+Worked on a new contract management application for hotels and on flight booking and administration systems.
 
-## Developer - Nordic Leisure Travel Group
-### 2020-02 → 2020-05
+- Built a React application and component library for hotel contract management, with focus on usability and efficient handling of large data volumes.
+- Contributed to flight booking and administration systems with extensive integrations and queue-based processing.
 
-Worked on development, prototyping, and design for a new React-based contract and agreement management system for hotels, alongside continued work on flight booking and administration systems.
+**Technologies:** ASP.NET Core, Node.js, React, TypeScript, GraphQL, CSS Modules, Azure, Docker, Jest, Git
 
-**Key Projects & Contributions**
+### Parental Leave
+**2019-10 – 2020-02**
 
-- **Contract management app:** Built a new React application and component library for managing hotel contracts. The system was designed for heavy daily use, with a strong emphasis on usability and handling large volumes of data efficiently. Deployed on Azure using Docker containers and CI/CD pipelines.
+Full-time parental leave.
 
-- **Flight booking systems:** Contributed to complex flight booking and administration systems with extensive integrations and queue-based processing, working primarily in Node and .NET Core.
+### Developer – Skandia
+**2016-06 – 2019-10**
 
-**Technologies:** ASP.NET Core, Node, React, TypeScript, GraphQL, CSS Modules, Azure, Docker, Jest, Enzyme
+Worked on Skandia's shared frontend framework and component libraries used across internal and external services by around 30 teams.
 
-## Parental Leave
-### 2019-10 → 2020-02
+- Developed reusable components in close collaboration with UX and design, supporting everything from internal time-reporting systems to skandia.se and the customer-facing online bank.
+- Built and maintained around 100 vanilla JavaScript components and around 100 React components, giving teams a shared and scalable foundation across products.
+- Modernised the legacy jQuery-based framework by separating presentation, styling and behaviour, and introduced a standardised component API based on HTML attributes or manual initialisation via a common syntax, improving performance and supportability.
+- Set up a documentation site covering component usage, options and variants, making the library easier for teams to discover, implement and maintain.
+- Supported teams during the redesign of internet banking pages to keep the user experience consistent, and mentored developers in JavaScript and React.
 
-Took time off to be with my son. Greatly improved leadership and multitasking capabilities, with a significant amount of time spent abroad - primarily poolside.
+**Technologies:** React, TypeScript, JavaScript, Node.js, Webpack, Rollup, HTML, CSS, Less, Sass, jQuery, ASP.NET Core, Git
 
-## Developer - Skandia
-### 2016-06 → 2019-10
+### Full Stack Developer – AFA Insurance
+**2011-08 – 2016-06**
 
-Worked on Skandia's internal frontend framework, used across all internal and external sites. Collaborated closely with the UX team to build and maintain a shared component library consumed by multiple development teams across the organisation.
+Worked as a .NET developer on internal business systems and business-critical case management applications, while also supporting other developers through mentoring and knowledge sharing.
 
-**Key Projects & Contributions**
+- Rebuilt internal case management and time-reporting systems to improve performance, data quality and maintainability.
+- Contributed to the work injury registration system, including a multilingual solution that grew from 0 to 10 languages and supported around 20,000 weekly logins.
+- Acted as a technical mentor for developers across the organisation and held workshops and internal knowledge-sharing sessions.
 
-- **Frontend framework ownership:** Developed and maintained generic, highly reusable components adhering to strict design principles - consumable in both traditional static codebases and modern frameworks like React.
+**Technologies:** C#, ASP.NET, ASP.NET MVC, ASP.NET Web API, JavaScript, jQuery, Knockout, Angular, HTML, CSS, Bootstrap, SQL Server, IIS, TFS
 
-- **Framework modernisation:** Ported the legacy jQuery-based framework to a modern stack with clear separation of markup, design, and logic. The new architecture drew on Bootstrap-style structuring, with greater generalisation to support external consumption.
+### Group Manager – H&M
+**2010-08 – 2011-06**
 
-- **Internet bank redesign:** Supported internal teams during the redesign of Skandia's internet banking pages, ensuring visual and behavioural consistency with the main skandia.se experience.
+Managed an integration team of 13 employees and 15 consultants, with responsibility for staffing, recruitment, performance reviews and day-to-day team development.
 
-- **React framework:** Built a new version of the frontend component library in React, designed for multi-team use while accommodating team-specific requirements. Also acted as a mentor for developers across teams on JavaScript and React.
+- Led the team through organisational change with focus on clarity, stability and communication.
+- Worked with onboarding, mentoring and development planning for team members.
+- Ran workshops and supported collaboration across developers, architects and consultants.
 
-**Technologies:** React, TypeScript, Node, Webpack, Rollup, HTML5, CSS3, Less, Sass, jQuery, ASP.NET Core, Git
+### Full Stack Developer – H&M
+**2008-06 – 2010-08**
 
-## Full Stack Developer - AFA Insurance
-### 2011-08 → 2016-06
+Worked across the full development lifecycle on internal systems, from requirements and design to implementation.
 
-Worked as a .NET developer on a wide range of internal systems, taking on a mentoring role for other developers and running workshops and technical lectures across the organisation.
+- Built a framework for processing large volumes of order data, including import and filtering of garment information.
+- Used MSMQ and XML-based message flows to support downstream reporting and media exposure reporting.
 
-**Key Projects & Contributions**
-
-- **Internal systems rebuild:** Rebuilt the internal case management and time reporting systems to improve performance, follow web standards, and normalise the underlying data model.
-
-- **Work injury registration system:** Contributed to one of AFA's most business-critical systems, handling registration of work-related injuries and accidents. A key piece of this work was building a flexible, in-system translation solution to support multiple languages - growing from 0 to 10 languages and serving 20,000 unique logins per week.
-
-- **Mentoring:** Acted as a technical mentor for developers across the organisation, holding regular workshops and knowledge-sharing sessions.
-
-**Technologies:** ASP.NET, ASP.NET MVC, ASP.NET Web API, HTML5, jQuery, Knockout, Angular, CSS3, Bootstrap, SQL Server, TFS, IIS
-
-## Group Manager - H&M
-### 2010-08 → 2011-06
-
-Managed the integration team consisting of 13 developers and architects alongside 15 consultants. Responsible for staffing, recruitment, team building, performance evaluations, and running workshops for the team.
-
-**Key Leadership & Contributions**
-
-- **Leading in a changing environment:** Led the team through organizational change by creating stability and open communication. Built an environment where people felt safe to speak up, try new things, and learn from mistakes. Kept the team moving forward with empathy and active listening, maintaining morale even through uncertain times.
-
-- **Talent development:** Established a mentorship program pairing senior developers with junior team members, resulting in faster onboarding and knowledge transfer. Created individual development plans for all team members, with measurable progress tracking.
-
-- **Culture building:** Fostered a culture of psychological safety where team members felt comfortable sharing ideas and concerns. Introduced regular retrospectives and team-building activities that strengthened collaboration.
-
-## Full Stack Developer - H&M
-### 2008-06 → 2010-08
-
-Worked as a developer covering the full development lifecycle - from requirements and architecture to design and implementation - on key internal systems.
-
-**Key Projects & Contributions**
-
-- **Order data pipeline:** Built a new framework to handle large volumes of data flowing from the order system, including import and filtering of detailed garment data. Used MSMQ with XML as the data format, with the output used to generate media exposure reports per garment.
-
-**Technologies:** ASP.NET, JavaScript, jQuery, CSS, SQL Server, Reporting Services, Subversion, IIS
+**Technologies:** ASP.NET, JavaScript, jQuery, CSS, SQL Server, Reporting Services, MSMQ, XML, IIS, Subversion

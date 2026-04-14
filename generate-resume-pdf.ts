@@ -1,4 +1,5 @@
 import fs from 'fs';
+import path from 'path';
 import puppeteer from 'puppeteer';
 import { marked } from 'marked';
 
@@ -68,6 +69,14 @@ async function generateResumePDF(options: ResumeOptions): Promise<void> {
   
   // Convert markdown to HTML
   const contentHtml = marked.parse(resumeMarkdown);
+  
+  // Read profile image if it exists
+  const imagePath = path.join(path.dirname(inputFile), 'me_1x1.png');
+  let imageBase64 = '';
+  if (fs.existsSync(imagePath)) {
+    const imageBuffer = fs.readFileSync(imagePath);
+    imageBase64 = `data:image/png;base64,${imageBuffer.toString('base64')}`;
+  }
   
   // Create a complete HTML document with professional styling
   const htmlContent = `
@@ -153,9 +162,19 @@ async function generateResumePDF(options: ResumeOptions): Promise<void> {
     h2 + h3 {
       margin-top: 0;
     }
+    
+    .profile-photo {
+      display: block;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin: 0 auto 20pt;
+      object-fit: cover;
+    }
   </style>
 </head>
 <body>
+  ${imageBase64 ? `<img src="${imageBase64}" alt="Profile photo" class="profile-photo" />` : ''}
   <h1 style="text-align: center; font-size: 24pt; margin-bottom: 10pt; color: #000;">${title}</h1>
   <p style="text-align: center; margin-bottom: 30pt; color: #666;">${subtitle}</p>
   

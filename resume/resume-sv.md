@@ -1,126 +1,115 @@
-## Fullstack-utvecklare - Gina Tricot
-### 2023-08 → 2026-05
+## Profilsammanfattning
 
-Arbetade som fullstack-utvecklare på Gina Tricots e-handelsplattform och bidrog till stora tekniska initiativ som förbättrade prestanda, kodkvalitet och långsiktig förvaltningsbarhet för sajten.
+Senior fullstack-utvecklare med 15+ års erfarenhet av att bygga e-handelslösningar, kundvända webbplattformar, API:er och interna affärssystem. Stark bakgrund inom React, Next.js, TypeScript, Node.js och .NET, med praktisk erfarenhet av plattformsmodernisering, prestandaarbete, headless CMS, molnleverans och komponentbibliotek. Van att arbeta över utveckling, arkitektur och tvärfunktionellt samarbete, samt stödja team genom mentorskap och kunskapsdelning.
 
-**Viktiga projekt & bidrag**
+## Kärnkompetenser
 
-- **Plattformsmodernisering:** Ledde uppgraderingen av hela webbplattformen från Next.js 9 till Next.js 13 och React 16 till React 18, inklusive större versionsuppgraderingar av alla centrala beroenden (MUI, Express, Storybook, Jest med flera). Säkerställde en stabil, fullt testad utrullning med minimal störning.
+React, Next.js, TypeScript, JavaScript, Node.js, Express, .NET / ASP.NET Core, GraphQL, REST API:er, frontend-arkitektur, designsystem / komponentbibliotek, headless CMS, prestandaoptimering, Core Web Vitals, lokalisering / flerspråkslösningar, molnplattformar, CI/CD, Docker, Terraform, mentorskap, tvärteamssamarbete.
 
-- **TypeScript-migration:** Portade hela kodbasen från JavaScript till TypeScript som en del av plattformsuppgraderingen, vilket förbättrade typsäkerheten, minskade körningsfel och gjorde kodbasen betydligt mer förvaltningsbar för teamet.
+## Uppdrag
 
-- **API-lager & prestanda:** Designade och implementerade API-routes i Next.js för att centralisera och cachea externa API-anrop. Detta minskade redundanta nätverksförfrågningar, förbättrade sidladdningstider och resulterade i mätbart bättre Core Web Vitals-poäng - vilket direkt gynnade webbplatsens rankning i Google Search.
+### Fullstack-utvecklare – Gina Tricot
+**2023-08 – Nuvarande**
 
-**Tekniker:** React, Next.js, TypeScript, MUI, Express, Storybook, Jest, Storyblok, Craft CMS
+Arbetade på Gina Tricots e-handelsplattform med fokus på plattformsmodernisering, prestanda och långsiktig förvaltningsbarhet.
 
-## Föräldraledighet
-### 2022-11 → 2023-08
+- Drev plattformsuppgraderingen från Next.js 9 till 13 och React 16 till 18, inklusive koordinerade uppgraderingar av 12 större beroenden såsom MUI, Express, Storybook och Jest.
+- Migrerade hela kodbasen från JavaScript till TypeScript, vilket förbättrade typsäkerheten och gjorde plattformen enklare att underhålla och vidareutveckla.
+- Byggde server-side API-rutter i Next.js för att centralisera integrationer och optimera cachning, vilket minskade underliggande API-anrop med cirka 80% och sänkte svarstider på vissa sidor med cirka 70%.
+- Implementerade optimerade renderingsstrategier med SSR, SSG och ISR, vilket bidrog till betydligt snabbare sidladdningar och markant bättre Core Web Vitals, med viktiga sidpoäng som gick från cirka 20-30 upp till 90-100.
 
-Tog ledigt för att vara med min son. Förbättrade avsevärt ledarskaps- och multitasking-förmågor, med betydande tid spenderad utomlands - främst poolside.
+**Tekniker:** React, Next.js, TypeScript, JavaScript, Node.js, Express, MUI, Storybook, Jest, Storyblok, Craft CMS, AWS, Terraform, Git, CI/CD
 
-## Frontend-utvecklare - Volvo Cars
-### 2022-05 → 2022-11
+### Föräldraledighet
+**2022-11 – 2023-08**
 
-Arbetade som frontend-utvecklare på Volvo Cars webbplats, en storskalig plattform som omfattar cirka 50 webbplatser i ett delat mono-repo. Kärnarkitekturen kretsade kring att bygga återanvändbara moduler som kunde användas över alla webbplatser, var och en med fullt flerspråksstöd och innehåll hämtat via ett headless CMS.
+Heltidsföräldraledighet.
 
-**Viktiga projekt & bidrag**
+### Frontend-utvecklare – Volvo Cars
+**2022-05 – 2022-11**
 
-- **Konsumentinriktade moduler:** Utvecklade React-komponenter integrerade med Sitecore och Contentful via GraphQL, vilket säkerställde innehållsflexibilitet och konsekvens över marknader.
+Arbetade på Volvo Cars webbplattform i ett monorepo som täckte cirka 50 marknadssajter, med fokus på återanvändbara moduler, flerspråksstöd och headless CMS-integrationer.
 
-- **Total ägandekostnadskalkylator:** Byggde en dynamisk modul som beräknade den totala ägandekostnaden för en bil baserat på variabler som förmånsvärde, leasingkostnader och körsträcka. Verktyget hade en direkt positiv inverkan på konverteringsgraden för nya registreringar.
+- Byggde återanvändbara React-moduler integrerade med Sitecore och Contentful via GraphQL.
+- Utvecklade en Total Cost of Ownership-kalkylator som användes i lead-genereringsflödet, med hantering av variabler som förmånsvärde, leasingkostnad och körsträcka.
+- Bidrog till kunskapsdelning och tvärteamssamarbete för att förbättra kvalitet och leverans över team.
 
-- **Teamsamarbete & kunskapsdelning:** Tog initiativ till att förbättra teamsamarbetet genom att etablera praxis för kunskapsdelning och kommunikation mellan team, vilket ledde till högre kvalitet och snabbare leverans av komplexa uppgifter.
+**Tekniker:** React, Next.js, TypeScript, JavaScript, Node.js, GraphQL, CSS Modules, Sitecore, Contentful, Azure, Azure DevOps, GitHub Actions, Docker, Jest, Enzyme, Git
 
-**Tekniker:** React, Next.js, TypeScript, Node, Express, GraphQL, CSS Modules, Sitecore, Contentful, Azure, Azure DevOps, GitHub Actions, Docker, Jest, Enzyme
+### Utvecklare – Nordic Leisure Travel Group
+**2020-11 – 2022-05**
 
-## Utvecklare - Nordic Leisure Travel Group
-### 2020-11 → 2022-05
+Arbetade på API-plattformen bakom företagets digitala produkter, med ansvar för integrationer över innehåll, bokningar, hotell och flyg.
 
-Arbetade som utvecklare med ansvar för API:erna som driver alla företagets applikationer - en svit på cirka 40–50 API:er byggda i Node med Express, med djupa integrationer i interna och externa system som täcker innehåll, bokningar, hotell och flyg.
+- Byggde och underhöll en stor uppsättning Node.js- och Express-API:er som användes av flera applikationer och marknader.
+- Arbetade med komplex datamappning, personaliseringslogik och integrationer med interna och externa system.
+- Ledde arkitekturarbetet för ett internt initiativ, stöttade onboarding och kunskapsöverföring, samt drev leverans tillsammans med interna utvecklare.
 
-**Viktiga projekt & bidrag**
+**Tekniker:** Node.js, Express, TypeScript, React, .NET Core, GraphQL, Azure, Azure DevOps, Docker, Jest, Postman, Git, Scrum, SAFe
 
-- **API-utveckling & integrationer:** Byggde och underhöll ett stort API-lager som hanterade komplex datamappning över marknader och personaliseringsinställningar, med integrationer mot boknings-, hotell- och flygsystem samt interna plattformar.
+### Product Owner – AFA Försäkring
+**2020-06 – Nuvarande (rådgivningsuppdrag)**
 
-- **Systemarkitekturledning:** Ledde arkitekturarbetet för ett centralt internt projekt, utbildade interna utvecklare om systemet och drev utvecklingen till färdigställande - främst i React och .NET Core.
+Ansvarig för GDPR- och riskhanteringsinitiativ inom försäkringssystem, med fokus på att översätta regulatoriska krav till tydliga produkt- och tekniska prioriteringar.
 
-**Tekniker:** .NET Core, Node, Express, React, TypeScript, GraphQL, CSS Modules, Azure, Azure DevOps, Docker, Jest, Enzyme, Postman, SAFe, Scrum
+- Koordinerade intressenter över affär, compliance och utveckling.
+- Definierade krav, prioriterade scope och stöttade arkitekturbeslut kopplade till GDPR- och Solvens II-efterlevnad.
+- Hjälpte till att säkerställa att system förblev alignerade med nuvarande och kommande EU-regelverk.
 
-## Product Owner - AFA Försäkring
-### 2020-06 → Nuvarande
+### Utvecklare – Nordic Leisure Travel Group
+**2020-02 – 2020-05**
 
-Ansvarar för flera projekt med fokus på GDPR-efterlevnad och Riskhantering (Solvens 2)-system. Ansvarig för att säkerställa att tekniska krav och arkitektur är i linje med nuvarande och kommande EU-regelverk, och hålla kritiska försäkringssystem uppdaterade och regelefterlevande.
+Arbetade på en ny kontraktshanteringsapplikation för hotell samt på flygboknings- och administrationssystem.
 
-## Utvecklare - Nordic Leisure Travel Group
-### 2020-02 → 2020-05
+- Byggde en React-applikation och komponentbibliotek för hotellkontraktshantering, med fokus på användbarhet och effektiv hantering av stora datavolymer.
+- Bidrog till flygboknings- och administrationssystem med omfattande integrationer och köbaserad bearbetning.
 
-Arbetade med utveckling, prototyper och design för ett nytt React-baserat kontrakt- och avtalssystem för hotell, tillsammans med fortsatt arbete med flygboknings- och administrationssystem.
+**Tekniker:** ASP.NET Core, Node.js, React, TypeScript, GraphQL, CSS Modules, Azure, Docker, Jest, Git
 
-**Viktiga projekt & bidrag**
+### Föräldraledighet
+**2019-10 – 2020-02**
 
-- **Kontraktshanteringsapp:** Byggde en ny React-applikation och komponentbibliotek för hantering av hotellkontrakt. Systemet var designat för intensiv daglig användning, med stark betoning på användbarhet och effektiv hantering av stora datamängder. Driftsatt på Azure med Docker-containrar och CI/CD-pipelines.
+Heltidsföräldraledighet.
 
-- **Flygbokningssystem:** Bidrog till komplexa flygboknings- och administrationssystem med omfattande integrationer och köbaserad bearbetning, främst i Node och .NET Core.
+### Utvecklare – Skandia
+**2016-06 – 2019-10**
 
-**Tekniker:** ASP.NET Core, Node, React, TypeScript, GraphQL, CSS Modules, Azure, Docker, Jest, Enzyme
+Arbetade på Skandias delade frontend-ramverk och komponentbibliotek som användes över interna och externa tjänster av cirka 30 team.
 
-## Föräldraledighet
-### 2019-10 → 2020-02
+- Utvecklade återanvändbara komponenter i nära samarbete med UX och design, med stöd för allt från interna tidrapporteringssystem till skandia.se och den kundvända internetbanken.
+- Byggde och underhöll cirka 100 vanilla JavaScript-komponenter och cirka 100 React-komponenter, vilket gav team en delad och skalbar grund över produkter.
+- Moderniserade det äldre jQuery-baserade ramverket genom att separera presentation, styling och beteende, samt introducerade ett standardiserat komponent-API baserat på HTML-attribut eller manuell initialisering via en gemensam syntax, vilket förbättrade prestanda och supportbarhet.
+- Satte upp en dokumentationssajt som täckte komponentanvändning, alternativ och varianter, vilket gjorde biblioteket enklare för team att upptäcka, implementera och underhålla.
+- Stöttade team under omdesignen av internetbankssidor för att hålla användarupplevelsen konsekvent, samt mentorade utvecklare i JavaScript och React.
 
-Tog ledigt för att vara med min son. Förbättrade avsevärt ledarskaps- och multitasking-förmågor, med betydande tid spenderad utomlands - främst poolside.
+**Tekniker:** React, TypeScript, JavaScript, Node.js, Webpack, Rollup, HTML, CSS, Less, Sass, jQuery, ASP.NET Core, Git
 
-## Utvecklare - Skandia
-### 2016-06 → 2019-10
+### Fullstack-utvecklare – AFA Försäkring
+**2011-08 – 2016-06**
 
-Arbetade med Skandias interna frontend-ramverk, som används över alla interna och externa webbplatser. Samarbetade nära med UX-teamet för att bygga och underhålla ett delat komponentbibliotek som konsumerades av flera utvecklingsteam i organisationen.
+Arbetade som .NET-utvecklare på interna affärssystem och affärskritiska ärendehanteringsapplikationer, samtidigt som jag stöttade andra utvecklare genom mentorskap och kunskapsdelning.
 
-**Viktiga projekt & bidrag**
+- Byggde om interna ärendehantering- och tidrapporteringssystem för att förbättra prestanda, datakvalitet och förvaltningsbarhet.
+- Bidrog till arbetsskaderegistreringssystemet, inklusive en flerspråkslösning som växte från 0 till 10 språk och stöttade cirka 20 000 veckoinloggningar.
+- Agerade som teknisk mentor för utvecklare över organisationen samt höll workshops och interna kunskapsdelningssessioner.
 
-- **Frontend-ramverksansvar:** Utvecklade och underhöll generiska, högst återanvändbara komponenter som följde strikta designprinciper - användbara i både traditionella statiska kodbaser och moderna ramverk som React.
+**Tekniker:** C#, ASP.NET, ASP.NET MVC, ASP.NET Web API, JavaScript, jQuery, Knockout, Angular, HTML, CSS, Bootstrap, SQL Server, IIS, TFS
 
-- **Ramverksmodernisering:** Portade det äldre jQuery-baserade ramverket till en modern stack med tydlig separation av markup, design och logik. Den nya arkitekturen inspirerades av Bootstrap-stil strukturering, med större generalisering för att stödja extern konsumtion.
+### Gruppchef – H&M
+**2010-08 – 2011-06**
 
-- **Internetbanksomdesign:** Stöttade interna team under omdesignen av Skandias internetbankssidor, för att säkerställa visuell och beteendemässig konsekvens med huvudupplevelsen på skandia.se.
+Ledde ett integrationsteam på 13 anställda och 15 konsulter, med ansvar för bemanning, rekrytering, prestationsutvärderingar och daglig teamutveckling.
 
-- **React-ramverk:** Byggde en ny version av frontend-komponentbiblioteket i React, designat för användning av flera team samtidigt som det tillgodosåg teamspecifika krav. Agerade även som mentor för utvecklare över team inom JavaScript och React.
+- Ledde teamet genom organisatorisk förändring med fokus på tydlighet, stabilitet och kommunikation.
+- Arbetade med onboarding, mentorskap och utvecklingsplanering för teammedlemmar.
+- Höll workshops och stöttade samarbete över utvecklare, arkitekter och konsulter.
 
-**Tekniker:** React, TypeScript, Node, Webpack, Rollup, HTML5, CSS3, Less, Sass, jQuery, ASP.NET Core, Git
+### Fullstack-utvecklare – H&M
+**2008-06 – 2010-08**
 
-## Utvecklare - AFA Försäkring
-### 2011-08 → 2016-06
+Arbetade över hela utvecklingslivscykeln på interna system, från krav och design till implementation.
 
-Arbetade som .NET-utvecklare på ett brett spektrum av interna system, och tog på sig en mentorsroll för andra utvecklare samt höll workshops och tekniska föreläsningar över organisationen.
+- Byggde ett ramverk för bearbetning av stora volymer orderdata, inklusive import och filtrering av produktinformation.
+- Använde MSMQ och XML-baserade meddelandeflöden för att stödja nedströmsrapportering och medieexponeringsrapportering.
 
-**Viktiga projekt & bidrag**
-
-- **Ombyggnad av interna system:** Byggde om de interna ärendehantering- och tidsrapporteringssystemen för att förbättra prestanda, följa webbstandarder och normalisera den underliggande datamodellen.
-
-- **Arbetsskaderegistreringssystem:** Bidrog till ett av AFA:s mest affärskritiska system, som hanterar registrering av arbetsrelaterade skador och olyckor. En central del av arbetet var att bygga en flexibel, in-system översättningslösning för att stödja flera språk - som växte från 0 till 10 språk och betjänade 20 000 unika inloggningar per vecka.
-
-- **Mentorskap:** Agerade som teknisk mentor för utvecklare över organisationen, och höll regelbundna workshops och kunskapsdelningssessioner.
-
-**Tekniker:** ASP.NET, ASP.NET MVC, ASP.NET Web API, HTML5, jQuery, Knockout, Angular, CSS3, Bootstrap, SQL Server, TFS, IIS
-
-## Gruppchef - H&M
-### 2010-08 → 2011-06
-
-Ledde integrationsteamet bestående av 13 utvecklare och arkitekter tillsammans med 15 konsulter. Ansvarig för bemanning, rekrytering, teambuilding, prestationsutvärderingar och workshops för teamet.
-
-**Viktiga ledarskaps- & bidrag**
-
-- **Ledarskap i förändring:** Ledde teamet genom organisatorisk förändring genom att skapa stabilitet och öppen kommunikation. Byggde en miljö där personer kände sig trygga att uttrycka sig, prova nya saker och lära av misstag. Höll teamet på rätt spår med empati och aktivt lyssnande, och bibehöll moralen även genom osäkra tider.
-
-- **Talantutveckling:** Etablerade ett mentorskapsprogram som parade senior utvecklare med juniora teammedlemmar, vilket resulterade i snabbare onboarding och kunskapsöverföring. Skapade individuella utvecklingsplaner för alla teammedlemmar, med mätbar framgångsuppföljning.
-
-- **Kulturbyggande:** Främjade en kultur av psykologisk trygghet där teammedlemmar kände sig bekväma att dela idéer och bekymmer. Introducerade regelbundna retrospektiv och teambuilding-aktiviteter som stärkte samarbetet.
-
-## Utvecklare - H&M
-### 2008-06 → 2010-08
-
-Arbetade som C#-utvecklare och täckte hela utvecklingslivscykeln - från krav och arkitektur till design och implementation - för centrala interna system.
-
-**Viktiga projekt & bidrag**
-
-- **Orderdata-pipeline:** Byggde ett nytt ramverk för att hantera stora datavolymer från ordersystemet, inklusive import och filtrering av detaljerad produktdata. Använde MSMQ med XML som dataformat, där outputen användes för att generera medieexponeringsrapporter per plagg.
-
-**Tekniker:** ASP.NET (C#) 2.0–3.5, JavaScript, jQuery, CSS, SQL Server, Reporting Services, Subversion, IIS
+**Tekniker:** ASP.NET, JavaScript, jQuery, CSS, SQL Server, Reporting Services, MSMQ, XML, IIS, Subversion
