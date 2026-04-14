@@ -1,11 +1,20 @@
 {
   "name": "waldell",
   "version": "1.0.0",
+  "type": "module",
   "repository": "https://github.com/waldell/waldell.github.io.git",
   "author": "Oscar Waldell <oscar@waldell.se>",
   "scripts": {
-    "start": "npx lite-server"
+    "start": "npx lite-server",
+    "generate-resume-en": "tsx generate-resume-pdf.ts --input resume/resume-en.md --output resume/resume-en.pdf --title \"Oscar Waldell\" --subtitle \"Full Stack Developer\"",
+    "generate-resume-sv": "tsx generate-resume-pdf.ts --input resume/resume-sv.md --output resume/resume-sv.pdf --title \"Oscar Waldell\" --subtitle \"Fullstack-utvecklare\"",
+    "generate-resume-pdf": "npm run generate-resume-en && npm run generate-resume-sv"
   },
-  "devDependencies": {},
-  "dependencies": {}
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "marked": "^18.0.0",
+    "puppeteer": "^24.40.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  }
 }
